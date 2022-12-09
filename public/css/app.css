@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 .sect-logo-sebastian {
   display: flex;
   justify-content: center;
@@ -21652,4 +21653,39 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+
+}
+.bg_f {
+  background-image: url(././img/background/testi.png);
+}
+.bg_f h1, .bg_f .h1 {
+  font-variant-caps: small-caps;
+  text-align: center;
+}
+
+.row_f {
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.hr_f {
+  width: 100px;
+  color: #ff6863;
+}
+
+.column_f1 {
+  width: 50%;
+}
+
+.column_f2 {
+  width: 50%;
+}
+.column_f2 .lab_f {
+  font-variant-caps: small-caps;
+}
+.column_f2 .prg_f {
+  background-color: #ff6863;
+  padding-bottom: 1%;
 }
