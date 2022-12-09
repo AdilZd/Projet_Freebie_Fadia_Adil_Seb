@@ -1,4 +1,15 @@
 @charset "UTF-8";
+/* Tres spècial comme problème */
+/* @media only screen and (max-width: 376px) {
+#creative-a{
+    margin-right: 30%;
+  }
+}
+*/
+
+
+
+
 #bg-hero {
   background-image: url(../../../public/img/hero.jpeg);
   background-size: 100%;
