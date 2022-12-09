@@ -1,5 +1,125 @@
 @charset "UTF-8";
 
+
+.sect-logo-sebastian {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.marques {
+  display: flex;
+  list-style: none;
+}
+
+.marques li {
+  margin: 50px;
+}
+
+.section1-sebastian {
+  background-image: linear-gradient(173deg, rgba(71, 170, 154, 0.6) 35%, rgba(57, 142, 130, 0.6) 100%), url(../../../public/img/Image_Sass_P2/background/sub.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(#64e687);
+  color: white;
+  text-align: center;
+  padding: 10vh;
+}
+
+.text-sect1-seb {
+  background-color: transparent;
+  border: none;
+  color: white;
+  border: 1px solid white;
+  width: 100%;
+}
+
+.btn-sect1-seb {
+  border: none;
+  color: white;
+  background-color: rgb(253, 95, 195);
+}
+
+.section2-sebastian {
+  padding-bottom: 10vh;
+}
+
+.para-sect2-seb {
+  padding: 15vh;
+  text-align: center;
+}
+
+.sect2-marge-seb {
+  color: orangered;
+  height: 5px;
+  width: 80px;
+  margin: auto;
+}
+
+.cards-sect2-seb {
+  display: flex;
+  justify-content: center;
+}
+
+.section4-sebastian {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  padding: 3vh;
+}
+
+.para-sect4-seb {
+  width: 100%;
+  color: white;
+}
+
+.icon-sect4-seb {
+  display: flex;
+  list-style: none;
+}
+
+.icon-sect4-seb li {
+  margin: 10px;
+}
+
+.btn-message-seb {
+  display: flex;
+  justify-content: center;
+  border: none;
+  color: white;
+  background-color: rgb(249, 3, 85);
+}
+
+footer {
+  text-align: center;
+  color: rgb(152, 150, 150);
+  background-color: #000;
+}
+
+.heart-red {
+  color: red;
+}
+
+.MolenGeek {
+  color: blue;
+}
+
+@media only screen and (max-width: 376px) {
+  .cards-sect2-seb {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5vh;
+  }
+}
+@media only screen and (max-width: 475px) {
+  .cards-sect2-seb {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 11vh;
+  }
+
 /* Tres spècial comme problème */
 /* @media only screen and (max-width: 376px) {
 #creative-a{
@@ -77,6 +197,7 @@
 
 .col4-a {
   color: #c4c5c4;
+
 }
 /*!
  * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
@@ -22029,7 +22150,13 @@ textarea.form-control-lg {
     display: inline-flex !important;
   }
   .d-print-none {
+
+    display: none !important;
+  }
+
+
     dis%;
+
 }
 .bg_f {
   background-image: url(././img/background/testi.png);
