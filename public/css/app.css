@@ -22,6 +22,7 @@
   margin-left: 200px;
 }
 
+/* Boutons sur le background img */
 #btns-a {
   font-size: 12px;
   margin-top: 30px;
@@ -40,6 +41,12 @@
   background-color: transparent;
   padding: 10px;
   border: 1px solid white;
+}
+
+#hr-a {
+  width: 10%;
+  margin: auto;
+  color: #ff6863;
 }
 
 /*!
