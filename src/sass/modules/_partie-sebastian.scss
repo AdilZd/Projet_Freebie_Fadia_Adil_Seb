@@ -1,0 +1,45 @@
+.section1-sebastian{
+    background-image: linear-gradient(173deg, rgba(137,255,130,0.6) 35%, rgba(0,255,97,0.6) 100%),url(../../../public/img/Image_Sass_P2/background/sub.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(#64e687);
+    color: white;
+    text-align: center;
+    padding: 10vh;
+}
+.text-sect1-seb{
+    background-color: transparent;
+    border: none;
+    color: white;
+    border: 1px solid white;
+    width: 50vh;
+}
+.btn-sect1-seb{
+    border: none;
+    color: white;
+    background-color: rgb(253, 95, 195);
+}
+
+
+
+// section2 sebastian
+
+.section2-sebastian{
+    padding-bottom: 10vh;
+}
+.para-sect2-seb{
+    padding: 15vh;
+    text-align: center;
+}
+.sect2-marge-seb{
+    display: flex;
+    flex-direction: column;
+    height: 3px;
+    width: 40px;
+    margin: 2vh;
+    background-color: orangered;
+}
+.cards-sect2-seb{
+    display: flex;
+    justify-content: center;
+}
