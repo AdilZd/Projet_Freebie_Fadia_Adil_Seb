@@ -2,6 +2,7 @@
 .sect-logo-sebastian {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .marques {
@@ -10,7 +11,7 @@
 }
 
 .marques li {
-  margin: 50px;
+  margin: 2vh;
 }
 
 .section1-sebastian {

@@ -3,6 +3,7 @@
 .sect-logo-sebastian{
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 .marques{
     display: flex;
@@ -108,9 +109,7 @@ footer{
         flex-direction: column;
         margin-left: 5vh;
     }
-    .sect-logo-sebastian{
-        
-    }
+    
 }
 @media only screen and (max-width:475px ){
     .cards-sect2-seb{
