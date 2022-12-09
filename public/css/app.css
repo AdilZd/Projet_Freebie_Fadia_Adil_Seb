@@ -33,12 +33,10 @@
 }
 
 .sect2-marge-seb {
-  display: flex;
-  flex-direction: column;
-  height: 3px;
-  width: 40px;
-  margin: 2vh;
-  background-color: orangered;
+  color: orangered;
+  height: 5px;
+  width: 80px;
+  margin: auto;
 }
 
 .cards-sect2-seb {
@@ -73,6 +71,20 @@
   border: none;
   color: white;
   background-color: rgb(249, 3, 85);
+}
+
+footer {
+  text-align: center;
+  color: rgb(152, 150, 150);
+  background-color: #000;
+}
+
+.heart-red {
+  color: red;
+}
+
+.MolenGeek {
+  color: blue;
 }
 
 /*!

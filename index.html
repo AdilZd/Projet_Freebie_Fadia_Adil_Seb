@@ -24,7 +24,7 @@
   <section class="section2-sebastian">
     <div class="para-sect2-seb">
       <h2>RECENT BLOGS</h2>
-      <div class="sect2-marge-seb"></div>
+      <hr class="sect2-marge-seb">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor nam ratione vero? Eaque nobis earum quasi porro
         quam, laboriosam doloribus inventore eveniet voluptatum maiores reprehenderit.</p>
     </div>
@@ -96,18 +96,27 @@
       </ul>
     </div>
     <div>
-      <div>
-        <input type="text" name="" id="" value="Name">
-        <input type="number" name="" id="" value="Phone">
+      <div class="row g-2">
+        <div class="col-md">
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="mdo@example.com">
+            <label for="floatingInputGrid">Email address</label>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="mdo@example.com">
+            <label for="floatingInputGrid">Email address</label>
+          </div>
       </div>
-      <div>
-        <textarea name="" id="" cols="50.5" rows="10"></textarea>
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2">Comments</label>
       </div>
-      <div><input type="button" value="SEND MESSAGE" class="btn-message-seb"></div>
     </div>
   </section>
   <footer>
-    Made with <i class="fa-solid fa-heart"></i> by <span>MolenGeek</span>.All Rights Reserved
+    Made with <span class="heart-red"><i class="fa-solid fa-heart"style="background-color:'red' "></i></span> by <span class="MolenGeek">MolenGeek</span>.All Rights Reserved
   </footer>
   <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
